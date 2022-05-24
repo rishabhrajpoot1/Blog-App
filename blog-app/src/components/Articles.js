@@ -47,7 +47,7 @@ class Articles extends React.Component {
                   <Link to={`/profiles/${article.author.username}`}>
                     <img
                       src={article.author.image || 'smiley.png'}
-                      alt={article.author.username}
+                      // alt={article.author.username}
                       className="w-14 h-14 rounded-full object-cover"
                     />
                   </Link>

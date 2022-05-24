@@ -3,8 +3,8 @@ import Loader from './Loader';
 import { Link, withRouter } from 'react-router-dom';
 import { Articles_URL, Local_Storage_Key } from '../utilities/constants';
 import CommentBox from './CommentBox';
-import ReactMarkdown from 'react';
-import remarkGfm from 'react';
+import ReactMarkdown from "react-markdown";                                      
+import remarkGfm from "remark-gfm";
 import UserContext from '../context/UserContext';
 
 class Article extends React.Component {

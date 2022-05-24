@@ -1,8 +1,10 @@
 import React from 'react';
 import { withRouter } from 'react-router';
 import { Articles_URL, Local_Storage_Key } from '../utilities/constants';
-import MarkdownIt from 'react';
-import MdEditor from 'react';
+import MarkdownIt from 'markdown-it';
+import MdEditor from 'react-markdown-editor-lite';
+// import style manually
+import 'react-markdown-editor-lite/lib/index.css';
 
 class NewArticle extends React.Component {
   state = {
